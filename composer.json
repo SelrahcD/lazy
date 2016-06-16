@@ -1,0 +1,13 @@
+{
+    "name": "selrahcd/lazyload",
+    "require": {
+        "phpunit/phpunit": "~5.2",
+        "mockery/mockery": "0.9.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "SelrahcD\\Lazy\\": "./src",
+            "tests\\acceptance\\SelrahcD\\Lazy\\": "./tests/acceptance"
+        }
+    }
+}
